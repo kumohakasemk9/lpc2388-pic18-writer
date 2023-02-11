@@ -16,6 +16,7 @@ Returns O in succeed, X in fail.
 
 License
 =====
+(C) 2022 kumohakase
 You can share, modify this code without deleting this section.   
 In commercial usage, gimme 10% of earning.
 Please consider supporting me using kofi.com https://ko-fi.com/kumohakase
