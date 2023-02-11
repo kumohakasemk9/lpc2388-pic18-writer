@@ -11,8 +11,7 @@ Accepts command via serial.
 I ... Identify command. Simplly returns "LPC21ISP-PICPROG"    
 Rxxyyyyyy ... Read command. xx is length-1 yyyyyy is addr. both in hex. no eeprom.   
 Cxxyy ... Config bit write command. xx is address + 0x300000, yy is data. both in hex.   
-Pxxxxxx[yy...] ... Program command. xxxxxx address. yy... is binary code. Must be even length.
-For example: 00112233 ... 0x0 0x11 0x22 0x33   
+Pxxxxxx[yy...] ... Program command. xxxxxx address. yy... is binary code. For example: 00112233 ... 0x0 0x11 0x22 0x33   
 Returns O in succeed, X in fail.   
 
 License
