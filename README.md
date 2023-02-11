@@ -8,7 +8,7 @@ Usage
 =====
 According to code....   
 Accepts command via serial.   
-I ... Identify command. Simplly returns "LPC21ISP-PICPROG"
+I ... Identify command. Simplly returns "LPC21ISP-PICPROG"    
 Rxxyyyyyy ... Read command. xx is length-1 yyyyyy is addr. both in hex. no eeprom.   
 Cxxyy ... Config bit write command. xx is address + 0x300000, yy is data. both in hex.   
 Pxxxxxx[yy...] ... Program command. xxxxxx address. yy... is binary code. Must be even length.
